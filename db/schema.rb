@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20141109134030) do
     t.string   "user_name"
     t.integer  "number"
     t.integer  "show_id"
+    t.string   "commentaire"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

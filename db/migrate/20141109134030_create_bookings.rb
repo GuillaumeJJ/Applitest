@@ -4,7 +4,8 @@ class CreateBookings < ActiveRecord::Migration
       t.string :user_name
       t.integer :number
       t.references :show, index: true
-
+      t.string :commentaire
+      
       t.timestamps
     end
   end

@@ -4,8 +4,10 @@ one:
   user_name: MyString
   number: 1
   show_id: 
+  commentaire: MyString
 
 two:
   user_name: MyString
   number: 1
   show_id: 
+  commentaire: MyString

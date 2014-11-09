@@ -9,7 +9,8 @@
       <th><%= model_class.human_attribute_name(:user_name) %></th>
       <th><%= model_class.human_attribute_name(:number) %></th>
       <th><%= model_class.human_attribute_name(:show_id) %></th>
-      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%= model_class.human_attribute_name(:commentaire) %></th>
+    
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
@@ -20,7 +21,7 @@
         <td><%= booking.user_name %></td>
         <td><%= booking.number %></td>
         <td><%= booking.show_id %></td>
-        <td><%=l booking.created_at %></td>
+        <td><%= booking.commentaire %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_booking_path(booking), :class => 'btn btn-mini' %>
